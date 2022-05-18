@@ -21,7 +21,8 @@ while(program == True):
 
     if choice == '1':
         id = int(input('Input id: '))
-        print(f'\n{dictionary[id][0]}\n{dictionary[id][1]}\ n')
+        print(f'\n{dictionary[id]}\n')
+        # print(f'\n{dictionary[id][0]}\n{dictionary[id][1]}\n') # красиво как-то сделали, но у меня не работает(
 
     if choice == '2':
         id = int(input('\nInput id: '))
